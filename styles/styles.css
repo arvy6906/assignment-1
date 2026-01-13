@@ -58,16 +58,48 @@ body{
     height: 29px;
     border-radius: 20px;
     color: #469165;
+    border: 1px solid white;
 }
 .background h1{
     margin: auto, 16px;
     font-size: 72px;
     line-height: 35px;
-    font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">;
-    /* height: ; */
+    font-family:Inter;
 }
 #green{
     color: #469165;
+}
+
+.butn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+#grn-btn{
+    font-weight: bold;
+    color: white;
+    background-color: #469165;
+    width: 251px;
+    height: 52px;
+     border: 1px solid black;
+    border-radius: 4px;
+}
+#transparent{
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 198px;
+    height: 44px;
+    color: white;
+    background-color: transparent;
+}
+#para{
+    width: 1360px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+
 }
