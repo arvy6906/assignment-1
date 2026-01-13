@@ -19,6 +19,7 @@ body{
     display:flex;
     gap: 32px;
     font-size: medium;
+    margin-right: 80px;
     
     
 }
@@ -29,7 +30,7 @@ body{
     background-color: #469165;
     width: 164px;
     height: 44px;
-    margin:auto 120px  
+    margin-right: 50px; 
  
 }
 #btn button{
