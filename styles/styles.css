@@ -43,7 +43,31 @@ body{
     cursor: pointer;
     
 }
-#note div{
+.background {
+    background-image: url(../B13-A01-Knowledge-Vault-main/assets/hero-bg.png);
     width: 1600px;
-    height: 448px;
+    height: 674px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+}
+.action-button{
+    width: 229px;
+    height: 29px;
+    border-radius: 20px;
+    color: #469165;
+}
+.background h1{
+    margin: auto, 16px;
+    font-size: 72px;
+    line-height: 35px;
+    font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">;
+    /* height: ; */
+}
+#green{
+    color: #469165;
 }
