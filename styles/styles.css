@@ -20,7 +20,7 @@ body{
     gap: 32px;
     font-size: medium;
     margin-right: 80px;
-    
+    cursor: pointer;
     
 }
 #btn{
@@ -31,6 +31,8 @@ body{
     width: 164px;
     height: 44px;
     margin-right: 50px; 
+    
+
  
 }
 #btn button{
@@ -38,4 +40,10 @@ body{
     border: none;
     color: white;
     padding: 15px 30px;
+    cursor: pointer;
+    
+}
+#note div{
+    width: 1600px;
+    height: 448px;
 }
